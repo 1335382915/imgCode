@@ -59,7 +59,7 @@
   	 //生成画布函数
    	function renderCanvas(width,height,ctx){
    		var canvas=$("<canvas width="+width+" height="+height+" style='display:none;'></canvas>");
-   		$("body").append(canvas);
+   		source.parent().append(canvas);
    		return canvas[0];
    	}
 

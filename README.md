@@ -29,7 +29,6 @@ gradient:false,
 mix:true,
 mixNumber:100,
 mixLine:10,
-bgImg:"S70417-122942.jpg",
 isCodeString:false,
 isCodeNumber:false,
 canvasOption:{
@@ -39,5 +38,7 @@ canvasOption:{
 </pre><br/>
 <h3>参数说明：</h3><br/>
 <pre>
-numberSize:4  //设置验证码位数，默认4位
+numberSize  //设置验证码位数，默认4位
+textStyle  //验证码的样式 值为("fillText","strokeText"),默认 "fillText"
+textColor  //验证码颜色 默认 "#ffffff"
 </pre><br/>

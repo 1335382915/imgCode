@@ -10,9 +10,12 @@
 2、必须挂载在一个img标签上面 <br/>
 
 <h3>基本用法：</h3><br/>
-<pre><img src="" id="app"></pre><br/>
+<pre>
+img src="" id="app"<br/>
 $("#app").imgcode();<br/>
-这样就搞定一个基本的验证码功能<br/>
+</pre><br/>
+
+2行代码这样就搞定一个基本的验证码功能<br/>
 <h3>预览效果</h3><br/>
 <img src="1.png" id="app">
 

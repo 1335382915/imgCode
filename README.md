@@ -18,4 +18,23 @@ $("#app").imgcode();<br/>
 2行代码这样就搞定一个基本的验证码功能<br/>
 <h3>预览效果</h3><br/>
 <img src="1.png" id="app">
+参数列表：
+<pre>
+numberSize:4,
+textStyle:"fillText",
+textColor:"#ffffff",
+shadowBlur:0,
+shadowColor:null,
+gradient:false,
+mix:true,
+mixNumber:100,
+mixLine:10,
+bgImg:"S70417-122942.jpg",
+isCodeString:false,
+isCodeNumber:false,
+canvasOption:{
+	width:130,
+	height:40
+},
+</pre>
 

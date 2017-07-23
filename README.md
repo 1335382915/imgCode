@@ -5,5 +5,5 @@ jQuery.imgCode.js一个基于JQUERY实现的图形验证码插件<br/>
 2、必须挂载在一个img标签上面 <br/>
 基本用法：<br/>
 <img src="" id="app"><br/>
-$("#app3").imgcode();<br/>
+$("#app").imgcode();<br/>
 这样就搞定一个基本的验证码功能<br/>

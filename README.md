@@ -40,3 +40,8 @@ canvasOption:{  //验证码图片的宽高<br/>
 callback(n) //回调函数 参数 "n" 验证码字符串 (一般在里面执行ajax操作,把验证码发送给后台)
 
 </pre><br/>
+<h3>预览效果</h3><br/>
+<img src="4.png" id="app"><br/>
+<img src="2.png" id="app"><br/>
+<img src="3.png" id="app"><br/>
+

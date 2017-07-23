@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./jquery.imgcode.js"></script>
+</head>
+<body>
+
+<div >
+	<img src="" id="app"><br/>
+   <img src="" id="app2">
+   <img src="" id="app3">
+</div>
+<script type="text/javascript">
+   $("#app").imgcode({
+   	numberSize:4,
+   	textStyle:"fillText",
+   	textColor:"#ffffff",
+   	fillColor:"#ff9900",
+   	gradient:false,
+   	shadowColor:"red",
+   	mix:true,
+   	isCodeString:true,
+   	shadowBlur:15,
+   	canvasOption:{
+		width:260,
+		height:80
+	},
+   	callback:function (n) {
+   		console.log(n);
+   	}
+   })
+
+
+   $("#app2").imgcode({
+   	numberSize:4,
+   	//textStyle:"strokeText",
+   	textColor:"#ffffff",
+   	fillColor:"green",
+   	shadowBlur:15,
+   	shadowColor:"red",
+   	mix:false,
+   	gradient:true,
+   	isCodeString:true,
+   	mixLine:null,
+   	mixNumber:0,
+   	canvasOption:{
+		width:260,
+		height:80
+	},
+   	callback:function (n) {
+   		console.log(n);
+   	}
+   })
+
+
+    $("#app3").imgcode({
+   	canvasOption:{
+		width:260,
+		height:80
+	},
+   	
+   })
+</script>
+</body>
+</html>

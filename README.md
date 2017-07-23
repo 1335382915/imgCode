@@ -17,8 +17,8 @@ $("#app").imgcode();<br/>
 
 2行代码这样就搞定一个基本的验证码功能<br/>
 <h3>预览效果</h3><br/>
-<img src="1.png" id="app">
-参数列表：
+<img src="1.png" id="app"><br/>
+<h3>参数列表：</h3><br/>
 <pre>
 numberSize:4,
 textStyle:"fillText",
@@ -36,5 +36,8 @@ canvasOption:{
 	width:130,
 	height:40
 },
-</pre>
-
+</pre><br/>
+<h3>参数说明：</h3><br/>
+<pre>
+numberSize:4  //设置验证码位数，默认4位
+</pre><br/>

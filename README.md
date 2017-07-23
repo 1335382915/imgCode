@@ -18,26 +18,10 @@ $("#app").imgcode();<br/>
 2行代码这样就搞定一个基本的验证码功能<br/>
 <h3>预览效果</h3><br/>
 <img src="1.png" id="app"><br/>
-<h3>参数列表：</h3><br/>
-<pre>
-numberSize:4,
-textStyle:"fillText",
-textColor:"#ffffff",
-shadowBlur:0,
-shadowColor:null,
-gradient:false,
-mix:true,
-mixNumber:100,
-mixLine:10,
-isCodeString:false,
-isCodeNumber:false,
-canvasOption:{
-	width:130,
-	height:40
-},
+
 </pre><br/>
-<h3>参数说明：</h3><br/>
-<pre>
+<h3>参数列表说明：</h3><br/>
+<pre style='font-size: 16px;'>
 numberSize  //设置验证码位数，默认4位<br/>
 textStyle  //验证码的样式 值为("fillText","strokeText"),默认 "fillText"<br/>
 textColor  //验证码颜色 默认 "#ffffff"<br/>
@@ -52,5 +36,7 @@ isCodeNumber  //验证码是否的纯数字 默认"false" 开启了mix之后无效<br/>
 canvasOption:{  //验证码图片的宽高<br/>
 	width:130,  //默认 130
 	height:40	//默认 40
-},
+}<br/>
+callback(n) //回调函数 参数 "n" 验证码字符串 (一般在里面执行ajax操作,把验证码发送给后台)
+
 </pre><br/>

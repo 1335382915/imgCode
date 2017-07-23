@@ -13,4 +13,6 @@
 <pre><img src="" id="app"></pre><br/>
 $("#app").imgcode();<br/>
 这样就搞定一个基本的验证码功能<br/>
+<h3>预览效果</h3><br/>
+<img src="1.png" id="app">
 

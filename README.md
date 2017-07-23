@@ -38,7 +38,19 @@ canvasOption:{
 </pre><br/>
 <h3>参数说明：</h3><br/>
 <pre>
-numberSize  //设置验证码位数，默认4位
-textStyle  //验证码的样式 值为("fillText","strokeText"),默认 "fillText"
-textColor  //验证码颜色 默认 "#ffffff"
+numberSize  //设置验证码位数，默认4位<br/>
+textStyle  //验证码的样式 值为("fillText","strokeText"),默认 "fillText"<br/>
+textColor  //验证码颜色 默认 "#ffffff"<br/>
+shadowBlur  //阴影值 默认"0"<br/>
+shadowColor  //阴影颜色 默认null<br/>
+gradient  //背景是否渐变 默认"false"<br/>
+mix   //是否启用数字和字母混淆 默认"true"<br/>
+mixNumber  //干扰圆点的数量 默认"100"<br/>
+mixLine  //干扰线的数量 默认"10"<br/>
+isCodeString  //验证码是否的纯字母 默认"false" 开启了mix之后无效<br/>
+isCodeNumber  //验证码是否的纯数字 默认"false" 开启了mix之后无效<br/>
+canvasOption:{  //验证码图片的宽高<br/>
+	width:130,  //默认 130
+	height:40	//默认 40
+},
 </pre><br/>

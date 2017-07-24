@@ -42,7 +42,9 @@ callback(n) //ЛиЕїКЏЪ§ ВЮЪ§ "n" бщжЄТызжЗћДЎ (вЛАудкРяУцжДааajaxВйзї,АббщжЄТыЗЂЫ
 
 </pre><br/>
 <h3>дЄРРаЇЙћ</h3><br/>
-<img src="4.png" id="app"><br/>
-<img src="2.png" id="app"><br/>
-<img src="3.png" id="app"><br/>
+<img src="4.png" ><br/>
+<img src="2.png" ><br/>
+<img src="3.png" ><br/>
+<img src="5.png" ><br/>
+<img src="6.png" ><br/>
 

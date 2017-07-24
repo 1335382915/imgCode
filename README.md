@@ -28,6 +28,7 @@ textColor  //验证码颜色 默认 "#ffffff"<br/>
 shadowBlur  //阴影值 默认"0"<br/>
 shadowColor  //阴影颜色 默认null<br/>
 gradient  //背景是否渐变 默认"false"<br/>
+gradientColor  //渐变颜色设置 默认"['red','green','blue']" 也可以是十六进制颜色值如："gradientColor:['#E33127','#FE4735','#FFB37F']"<br/>
 mix   //是否启用数字和字母混淆 默认"true"<br/>
 mixNumber  //干扰圆点的数量 默认"100"<br/>
 mixLine  //干扰线的数量 默认"10"<br/>
